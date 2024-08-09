@@ -3,13 +3,12 @@ a = 1
 b = 11
 d = 0
 
-for i in range(10):
+user = int(input("階層數"))
+for i in user:
     lists.append(a)
-    
-    c = a * b 
-    
     lists.append(c)
     
+    c = a * b 
     a = c * b
     
 print(lists)
