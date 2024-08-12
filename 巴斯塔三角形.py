@@ -1,14 +1,17 @@
+
 lists = []
 a = 1
 b = 11
 d = 0
 
 user = int(input("階層數"))
-for i in user:
+for i in range(user):
     lists.append(a)
-    lists.append(c)
     
     c = a * b 
+    
+    lists.append(c)  
+    
     a = c * b
     
 print(lists)
